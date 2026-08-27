@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.npmrc
+_npm_token.txt
+_gh_token.txt
