@@ -1,0 +1,52 @@
+{
+  "name": "n8n-nodes-apivault-linkedin-profile",
+  "version": "0.2.0",
+  "description": "Official n8n community node for the Apivault Labs LinkedIn Profile Scraper. Send public profile URLs or usernames to the hosted Apify Actor and receive structured JSON or CRM-ready rows.",
+  "license": "MIT",
+  "homepage": "https://apify.com/apivault_labs/linkedin-profile-scraper-no-cookies",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "linkedin-profile",
+    "linkedin-profile-scraper",
+    "crm-enrichment",
+    "public-profile-data",
+    "apify",
+    "no-code",
+    "automation"
+  ],
+  "author": {
+    "name": "apivault_labs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apivault-labs/n8n-nodes-apivault-linkedin-profile.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && copyfiles \"nodes/**/*.svg\" dist",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/ApifyApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/LinkedinProfile/LinkedinProfile.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "copyfiles": "^2.4.1",
+    "n8n-workflow": "*",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
