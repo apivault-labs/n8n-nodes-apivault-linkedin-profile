@@ -33,3 +33,15 @@ This package is only an integration funnel: it validates the public input, start
 ## License
 
 [MIT](LICENSE)
+
+<!-- apivault-integrations:start -->
+## Hosted Actor and integrations
+
+- [Run LinkedIn Profile Scraper — No Cookies, Bulk API on Apify](https://apify.com/apivault_labs/linkedin-profile-scraper-no-cookies).
+- [Current pricing and usage terms](https://apify.com/apivault_labs/linkedin-profile-scraper-no-cookies/pricing).
+- [n8n community package: n8n-nodes-apivault-linkedin-profile](https://www.npmjs.com/package/n8n-nodes-apivault-linkedin-profile).
+- [Python client](https://github.com/apivault-labs/linkedin-profile-scraper-python).
+- [n8n source and usage](https://github.com/apivault-labs/apivault-labs/tree/main/community-nodes/n8n-nodes-apivault-linkedin-profile).
+
+An Apify account and API token are required. Hosted Actor/platform charges apply. npm publication is not n8n verification or confirmation of n8n Cloud availability.
+<!-- apivault-integrations:end -->
